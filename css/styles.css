@@ -114,11 +114,15 @@ text-decoration: none;
     margin-bottom: 40px;
 }
 
-/*features*/
+/* Sections */
 
-.features-title{
-    color: var(--title-text-color);
-    }
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+
+/*features*/
 
 /*  правильно і семантично ховати заголовки */
 .visually-hidden { 
@@ -134,7 +138,7 @@ text-decoration: none;
         overflow: hidden; 
 }
 
-.feature-list .title{
+.feature-list .titlelist{
     color: var(--title-text-color);
     font-size: 14px;
     line-height: 1.14;
