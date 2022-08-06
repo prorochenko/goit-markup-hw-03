@@ -39,6 +39,8 @@ body{
     margin-right: auto;
     width: 1200px;
     outline: 2px solid tomato;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 
@@ -57,6 +59,8 @@ body{
 .logosecondwordinfooter{
     color:#FFFFFF;
 }
+
+
 .list {
     list-style: none;  /* убирает оформление списка*/
     padding: 0;
@@ -163,7 +167,6 @@ text-decoration: none;
     text-align: center;
     margin-bottom: 50px;
     margin-top: 0;
-
 }
 
 /* Our Team */
@@ -239,9 +242,7 @@ text-decoration: none;
     border: 0px;
 }
 
-.list {
-    list-style: none;
-}
+
 
 /* Porfolio PAGE */
 
@@ -273,13 +274,24 @@ text-decoration: none;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.portfolio .title{
+.portfolio-title{
     color: var(--title-text-color);
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 4px;
 }
+
 .portfolio .text{
     font-size: 16px;
     line-height: 1.88;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.buttons{
+    margin-top: 0;
+    margin-bottom: 34px;
 }
