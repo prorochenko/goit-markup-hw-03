@@ -54,6 +54,12 @@ body{
     font-size: 14px;
     letter-spacing: 0.03em;
 }
+
+
+.headerclass{
+border-bottom: 1px solid #ECECEC;
+}
+
 .list {
     list-style: none;  /* убирает оформление списка*/
     padding: 0;
