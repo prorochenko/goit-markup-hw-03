@@ -426,9 +426,16 @@ body{
     margin-bottom: 34px;
 }
 
-.list-buttons{
+.list.buttons{
     display: flex;
+    justify-content: center;
 }
 
+.buttons .item{
+margin-right: 8px;
+}
+.buttons .item:nth-last-child(5n){
+    margin-right: 0px;
+}
 
 
