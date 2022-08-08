@@ -153,6 +153,8 @@ body {
 .hero {
   background-color: #2f303a;
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-tittle {
@@ -163,11 +165,14 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   margin-top: 0;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   width: 696px;
   margin-left: auto;
   margin-right: auto;
+}.button.primary.focus{
+  margin-right: 0;
 }
+
 
 /* Sections */
 
@@ -190,6 +195,11 @@ body {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.section.feature{
+  padding-top: 88px;
+  padding-bottom: 0px;
 }
 
 .feature-list {
@@ -264,8 +274,8 @@ body {
 }
 
 .textinteam {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .team-list .title {
@@ -358,15 +368,17 @@ body {
 }
 
 .porfoliotext {
-  margin-left: 24px;
-  margin-right: 24px;
-  margin-bottom: 20px;
-  margin-top: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 
 .borderforporfolio{
-border: 1px solid #eeeeee;
+border-left: 1px solid #eeeeee;
+border-bottom: 1px solid #eeeeee;
+border-right: 1px solid #eeeeee;
 }
 
 
