@@ -284,6 +284,8 @@ body {
 /* footer */
 .footer {
   background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 /* Свойства для обнуления курсива у address font-style: normal */
 .address-footer {
@@ -312,6 +314,11 @@ body {
 .address-footer:focus {
   color: var(--accent-color);
 }
+
+.logofooter{
+  margin-top: 60px;
+}
+
 
 /* Porfolio PAGE */
 .portfolios {
